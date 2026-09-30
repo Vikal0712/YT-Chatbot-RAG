@@ -1,0 +1,32 @@
+not every bug is vulnerability 
+
+types of penetration testing:
+-black box testing -->no access to the source code, no knowledge of internal archirtecture
+-white box testing -->organization shares almost complete information with the pentester.
+			--application details
+			--source code details
+			--service versions 
+-gray box testing  -->the tester is provided with limited but useful information.
+
+
+must know concepts
+
+attack surface --> total set of points where attacker could attempt entry.
+attack vector  --> the specific path ot technique used to carry out the attack.
+proof of concept(poc) -> poc demonstrates that a vulnerability is real and exploited. 
+impact         --> consequences of successfull exploitation.
+false positive  --> when an vulnerability reports but does not actually exit.
+
+reconnaissance --> first phase of the vapt where tester focuses on information gathering 
+	--passive reconnaissance -->collecting information without directly interacting with the target system
+				
+	--active reconnaissance  -->directly interact with the taget systems to extract technical details
+
+
+AWS Cloud architecture 
+ 
+			vpc(virtual private cloud)
+	frontend sevices 				backend services
+							 
+	
+

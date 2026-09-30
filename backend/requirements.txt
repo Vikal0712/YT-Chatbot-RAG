@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+faiss-cpu
+youtube-transcript-api
+numpy
+sentence-transformers

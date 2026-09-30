@@ -1,0 +1,46 @@
+28-09-2026
+
+SQL INJECTION 
+	Most experienced testers are familiar with this type of SQL injection.
+
+	Some other common locations where SQL 	injection arises are:
+
+In UPDATE statements, within the updated values or the WHERE clause.
+In INSERT statements, within the inserted values.
+In SELECT statements, within the table or column name.
+In SELECT statements, within the ORDER BY clause.
+
+http status codes 
+-100 ,-200-->success, 300--> redirection 400-->client side error 500--> server side error
+
+port number 53 dns 
+	    21 ftp
+	    80 http
+	    443 https
+	    25 Smtp
+payloads  sql -- is a comment , 'or1==1
+	    
+owasp top 10 vulnerabilitis
+-broken access control
+-cryptograpgic failure
+-sql injection
+-cross site scripting 
+-insecure design
+-vulnerable and outdated components 
+-system misconfiguration 
+-logging and monitoring failure
+-software and data integrity failure
+-server side request forgery
+
+
+
+
+penetration testing tools burpsuite,nmap,wireshark(captures packet) we can see what are all the open ports,services running , and the os information 
+
+
+explore the exper.hub website (learning managemnt system)
+--users admin,coordinator(dean),faculty(hod),student,parents
+--faculty generate the notes 
+--coordinator creats sessiona and assign faculty, students to it.
+--faculty saw those session join according to the timings,then faculty can also make the 
+--student can join the session and give feedback to the faculty that will be visible to the faculty
